@@ -5,6 +5,7 @@ A from-scratch exploration of arrhythmia classification on raw ECG waveforms usi
 **Dataset**: [MIT-BIH Arrhythmia Database](https://physionet.org/content/mitdb/1.0.0/) (PhysioNet)
 **Approach**: raw signal input, no hand-crafted feature engineering — the network learns morphology directly from the filtered waveform.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](notebooks/ecg_cnn_full_pipeline.ipynb)
 
 ## Motivation
 
