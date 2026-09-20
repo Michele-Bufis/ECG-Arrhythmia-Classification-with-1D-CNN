@@ -41,7 +41,7 @@ GroupKFold cross-validation (5 folds, patient-grouped) confirms this is represen
 - **Class weights, batch balancing, hierarchical two-stage classification** — four different rebalancing strategies were tried before concluding, empirically, that the rarest class (fusion beats) is not a data-imbalance problem but a *morphological ambiguity* problem: the aggregated confusion matrix shows it splits almost evenly between "Normal" and "Ventricular," consistent with its clinical definition as a hybrid beat.
 - **Per-class confidence threshold calibration** — looked excellent on a small internal validation split (near-perfect F1) but collapsed on the held-out test set. A documented case of threshold overfitting on limited data, and a reminder that a metric that looks too good usually is.
 
-Full diagnostic log of every attempt, including this one, is in [`docs/progress-log-ita.md`](docs/progress-log-ita.md) (Italian).
+Full diagnostic log of every attempt, including this one, is in [`FINDINGS.md`](FINDINGS.md).
 
 ## Project structure
 
