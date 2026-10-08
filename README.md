@@ -43,12 +43,6 @@ GroupKFold cross-validation (5 folds, patient-grouped) confirms this is represen
 
 Full diagnostic log of every attempt, including this one, is in [`FINDINGS.md`](FINDINGS.md).
 
-## Project structure
-
-```
-notebooks/    -> single self-contained Colab notebook, full pipeline
-docs/         -> detailed development log (Italian)
-```
 
 ## Reproducing
 
