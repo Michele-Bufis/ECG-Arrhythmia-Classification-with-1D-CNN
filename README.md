@@ -5,8 +5,6 @@ A from-scratch exploration of arrhythmia classification on raw ECG waveforms usi
 **Dataset**: [MIT-BIH Arrhythmia Database](https://physionet.org/content/mitdb/1.0.0/) (PhysioNet)
 **Approach**: raw signal input, no hand-crafted feature engineering — the network learns morphology directly from the filtered waveform.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](notebooks/ecg_cnn_full_pipeline.ipynb)
-
 ## Motivation
 
 Most beginner ECG classification projects report a single accuracy number on an imbalanced dataset and stop there. This project instead documents the full diagnostic process of building a usable classifier under realistic constraints: a 113:1 class imbalance, one class (fusion beats) that is morphologically ambiguous by clinical definition, and a patient-level train/test split to avoid data leakage.
