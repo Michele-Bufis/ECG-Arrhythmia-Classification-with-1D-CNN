@@ -1,7 +1,5 @@
 # ECG Arrhythmia Classification with 1D CNN
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Michele-Bufis/ECG-Arrhythmia-Classification-with-1D-CNN/blob/main/ecg_cnn_progetto_completo.ipynb)
-
 A from-scratch exploration of heartbeat classification on the MIT-BIH Arrhythmia Database with a compact 1D CNN (~15K parameters), focused on what it takes to handle severe class imbalance and data scarcity, and on documenting honestly what worked and what did not. This is a learning project, not a clinically validated system.
 
 **Dataset**: [MIT-BIH Arrhythmia Database](https://physionet.org/content/mitdb/1.0.0/) (PhysioNet), 48 recordings from 47 subjects.
