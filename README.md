@@ -61,6 +61,7 @@ Open the notebook in Colab (badge above), mount your own Google Drive and run to
 - `ecg_cnn_progetto_completo.ipynb`: final notebook (data, cross-validation, final model, threshold, test evaluation)
 - `FINDINGS.md`: full diagnostic log, including failed attempts and limitations
 - `attempts/`: notebooks of earlier attempts (optional, for traceability)
+- `modello_finale.keras`: final model (identified by matching its internal-validation metrics to the notebook's; test set not re-evaluated with this file)
   
 ## Stack
 
