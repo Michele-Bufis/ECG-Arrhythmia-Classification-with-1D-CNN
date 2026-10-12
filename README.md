@@ -1,3 +1,8 @@
+> [!NOTE]
+> **Personal Project**
+> 
+> This repository contains an independent, self-directed learning initiative. It is not affiliated with any university coursework, academic research, or corporate entity.
+
 # ECG Arrhythmia Classification with 1D CNN
 
 A from-scratch exploration of heartbeat classification on the MIT-BIH Arrhythmia Database with a compact 1D CNN (~15K parameters), focused on what it takes to handle severe class imbalance and data scarcity, and on documenting honestly what worked and what did not. This is a learning project, not a clinically validated system.
